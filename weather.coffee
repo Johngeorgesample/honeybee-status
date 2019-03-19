@@ -1,6 +1,6 @@
-latitude = "41.0640"
-longitude = "-80.0564"
-apiKey = "bc4d151fefa27e8697fa778f6e269dd4"
+latitude = "yourlat"
+longitude = "yourlong"
+apiKey = "yourkeyhere"
 
 command: "curl -s 'https://api.forecast.io/forecast/#{apiKey}/#{latitude},#{longitude}?exclude=minutely,hourly,flags'"
 
