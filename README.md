@@ -7,3 +7,5 @@ Statusbar for Ubersicht
 Inspired by [Bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status), but for macOS.
 
 For FontAwesome icons to work, you'll need to additionally download [this widget](https://gist.github.com/Johngeorgesample/e8327733ddd52125c39cc2bc5902b4e7).
+
+The weather widget uses [DarkSky's](hhttps://darksky.net/dev) API. Generate an API key and enter your latitude and longitude. 
