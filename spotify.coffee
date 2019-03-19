@@ -7,22 +7,24 @@ IFS='|' read -r theArtist theName <<<"$(osascript <<<'tell application "Spotify"
     end tell')"
 echo "$theArtist - $theName"
 """
-
-refreshFrequency: 2000
-
-style: """
-  right: 11%
-  background-color: #83a598
-  height: 20px
-  width: 220px;
-  white-space: nowrap
-  overflow: auto
-
-  .musicText
-    padding-left: 15px
-    font: 12px Menlo
+render: (output) -> """
+   	<span><i class="fas fa-music"></i> #{output}</span>
 """
 
-render: (output) ->
-    "<span class='musicText'>♫ #{output}</span>"
+style: """
+  height: 20px
+  width: 220px
+  right: 49em
+  background-color: #83a598
+  font: 12px Menlo
+  padding-left: 1%
+  padding-right: 1%
+  overflow: auto
+  white-space: nowrap
+
+  span {
+      position: relative
+      top: 13%
+  }
+"""
 

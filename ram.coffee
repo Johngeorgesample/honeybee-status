@@ -1,16 +1,14 @@
 refreshFrequency: 30000
-command: """
-    date +"%I:%M %p"
-"""
+command: "ESC=`printf \"\e\"`; ps -A -o %mem | awk '{s+=$1} END {printf(s)}'"
 
 render: (output) -> """
-   	<span><i class="fas fa-clock"></i> #{output}</span>
+   	<span><i class="fas fa-memory"></i> #{output}%</span>
 """
 
 style: """
   height: 20px
-  right: 0%
-  background-color: #8ec07c
+  right: 20em
+  background-color: #b8bb26
   font: 12px Menlo
   padding-left: 1%
   padding-right: 1%
