@@ -2,7 +2,7 @@ refreshFrequency: 30000
 command: "ESC=`printf \"\e\"`; ps -A -o %mem | awk '{s+=$1} END {printf(s)}'"
 
 render: (output) -> """
-   	<span><i class="fas fa-memory"></i> #{output}%</span>
+  <span><i class="fas fa-memory"></i> #{output}%</span>
 """
 
 style: """

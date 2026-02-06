@@ -1,0 +1,13 @@
+{
+  "name": "honeybee-status",
+  "version": "1.0.0",
+  "description": "Statusbar for Ubersicht",
+  "scripts": {
+    "lint": "coffeelint *.coffee"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@coffeelint/cli": "^5.2.11"
+  }
+}

@@ -2,7 +2,7 @@ refreshFrequency: 5000
 command: "date +'%m/%d/%y'"
 
 render: (output) -> """
-   	<span><i class="far fa-calendar-alt"></i> #{output}</span>
+  <span><i class="far fa-calendar-alt"></i> #{output}</span>
 """
 
 style: """

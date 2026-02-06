@@ -8,7 +8,7 @@ IFS='|' read -r theArtist theName <<<"$(osascript <<<'tell application "Spotify"
 echo "$theArtist - $theName"
 """
 render: (output) -> """
-   	<span><i class="fas fa-music"></i> #{output}</span>
+  <span><i class="fas fa-music"></i> #{output}</span>
 """
 
 style: """
