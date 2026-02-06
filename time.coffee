@@ -4,7 +4,7 @@ command: """
 """
 
 render: (output) -> """
-   	<span><i class="fas fa-clock"></i> #{output}</span>
+  <span><i class="fas fa-clock"></i> #{output}</span>
 """
 
 style: """

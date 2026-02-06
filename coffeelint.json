@@ -1,0 +1,25 @@
+{
+  "max_line_length": {
+    "level": "warn",
+    "value": 120
+  },
+  "no_tabs": {
+    "level": "error"
+  },
+  "indentation": {
+    "level": "error",
+    "value": 2
+  },
+  "no_trailing_whitespace": {
+    "level": "error"
+  },
+  "no_trailing_semicolons": {
+    "level": "error"
+  },
+  "no_empty_functions": {
+    "level": "warn"
+  },
+  "prefer_english_operator": {
+    "level": "warn"
+  }
+}
